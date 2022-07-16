@@ -8,11 +8,13 @@
 }
 
 html, body{
+
     background: #000;
     color:#fff;
     line-height: 1.7;
     overflow-x: hidden;
     font-family: poppin, sans-serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -338,7 +340,7 @@ button{
     margin-bottom:30px
   }
 }
-@media (max-width:767px)
+@media (max-width:768px)
 {
   .site-footer
   {
@@ -346,7 +348,8 @@ button{
   }
   .site-footer .copyright-text,.site-footer .social-icons
   {
-    text-align:center
+    text-align:center;
+    margin-bottom: 30px;
   }
 }
 .social-icons
@@ -411,7 +414,7 @@ button{
 {
   background-color:#ea4c89
 }
-@media (max-width:767px)
+@media (max-width:768px)
 {
   .social-icons li.title
   {
@@ -423,16 +426,57 @@ button{
 
 
 @media (max-width:768px) {
+
+    *{
+    
+    }
     .header .flex{
         flex-direction: column;
         
     }
+
 
     .info{
         line-height: 1.5rem;
         font-weight: 10px;
         font-size: 15px;
     }
+
+    .info h3{
+      font-size: 30px;
+    }
+    .info p{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .subtext h3{
+      font-size: 30px;
+    }
+    .subtext p{
+      margin-left: 15px;
+      margin-right: 15px;
+
+    }
+
+    .display h3{
+      font-size: 30px;
+    }
+
+    .display p{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .textinside h3{
+      font-size: 30px;
+    }
+
+    .textinside p{
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
 
     .container .covers{
         grid-template-columns: 1fr;
